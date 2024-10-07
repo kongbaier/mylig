@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d3573062000077093a7968d61e4a4af9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d3573062000077093a7968d61e4a4af9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d3573062000077093a7968d61e4a4af9 = L.map(
+                "map_d3573062000077093a7968d61e4a4af9",
+                {
+                    center: [30.210785299999998, 115.02453711413628],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ba8a8df42313fc2cc38726a06c9559ad = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ba8a8df42313fc2cc38726a06c9559ad.addTo(map_d3573062000077093a7968d61e4a4af9);
+        
+    
+            var marker_128292217c8026e3619bc33e2664c9e4 = L.marker(
+                [30.208527, 115.012572],
+                {}
+            ).addTo(map_d3573062000077093a7968d61e4a4af9);
+        
+    
+        var popup_f4d35047cbc3c34c68694a3ff7c3c512 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_637c10d8acbcf2a742c388626c86ba33 = $(`<div id="html_637c10d8acbcf2a742c388626c86ba33" style="width: 100.0%; height: 100.0%;">腾龙</div>`)[0];
+                popup_f4d35047cbc3c34c68694a3ff7c3c512.setContent(html_637c10d8acbcf2a742c388626c86ba33);
+            
+        
+
+        marker_128292217c8026e3619bc33e2664c9e4.bindPopup(popup_f4d35047cbc3c34c68694a3ff7c3c512)
+        ;
+
+        
+    
+    
+            var marker_4bcdc4968c9c7097daf4a194ddbb98a2 = L.marker(
+                [30.211396, 115.01526],
+                {}
+            ).addTo(map_d3573062000077093a7968d61e4a4af9);
+        
+    
+        var popup_41865e3fc16cad28a77901e5c320a552 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8dae50882ef9029ef2681becc6a4154 = $(`<div id="html_a8dae50882ef9029ef2681becc6a4154" style="width: 100.0%; height: 100.0%;">议程</div>`)[0];
+                popup_41865e3fc16cad28a77901e5c320a552.setContent(html_a8dae50882ef9029ef2681becc6a4154);
+            
+        
+
+        marker_4bcdc4968c9c7097daf4a194ddbb98a2.bindPopup(popup_41865e3fc16cad28a77901e5c320a552)
+        ;
+
+        
+    
+    
+            var marker_2d7b0383ceacc773ae7b08aec881edb9 = L.marker(
+                [30.208584, 115.015261],
+                {}
+            ).addTo(map_d3573062000077093a7968d61e4a4af9);
+        
+    
+        var popup_5d2f2a4a8ca7003ee1429cadf2d4763a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_616d7bcfff49880cd501a723153e506c = $(`<div id="html_616d7bcfff49880cd501a723153e506c" style="width: 100.0%; height: 100.0%;">西门体育馆</div>`)[0];
+                popup_5d2f2a4a8ca7003ee1429cadf2d4763a.setContent(html_616d7bcfff49880cd501a723153e506c);
+            
+        
+
+        marker_2d7b0383ceacc773ae7b08aec881edb9.bindPopup(popup_5d2f2a4a8ca7003ee1429cadf2d4763a)
+        ;
+
+        
+    
+    
+            var marker_fb9ce354e3c6879a52c99f482271712f = L.marker(
+                [30.21422, 115.020607],
+                {}
+            ).addTo(map_d3573062000077093a7968d61e4a4af9);
+        
+    
+        var popup_7b0169ceb21366865370f51252b2a8eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fffcc10b5ea07133f7093d6db4121be = $(`<div id="html_6fffcc10b5ea07133f7093d6db4121be" style="width: 100.0%; height: 100.0%;">J栋教学楼</div>`)[0];
+                popup_7b0169ceb21366865370f51252b2a8eb.setContent(html_6fffcc10b5ea07133f7093d6db4121be);
+            
+        
+
+        marker_fb9ce354e3c6879a52c99f482271712f.bindPopup(popup_7b0169ceb21366865370f51252b2a8eb)
+        ;
+
+        
+    
+    
+            var marker_abc9a60c4c46f8042e131d2fa401550b = L.marker(
+                [30.211936, 115.027152],
+                {}
+            ).addTo(map_d3573062000077093a7968d61e4a4af9);
+        
+    
+        var popup_173ae60fdf95500f992d7a9929bba5f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46f790066fc144788d6ff879ecd77858 = $(`<div id="html_46f790066fc144788d6ff879ecd77858" style="width: 100.0%; height: 100.0%;">东门</div>`)[0];
+                popup_173ae60fdf95500f992d7a9929bba5f8.setContent(html_46f790066fc144788d6ff879ecd77858);
+            
+        
+
+        marker_abc9a60c4c46f8042e131d2fa401550b.bindPopup(popup_173ae60fdf95500f992d7a9929bba5f8)
+        ;
+
+        
+    
+    
+            var marker_5b1988d0462e56159140a8cdfb9b8c3f = L.marker(
+                [30.211736, 115.022302],
+                {}
+            ).addTo(map_d3573062000077093a7968d61e4a4af9);
+        
+    
+        var popup_19bd59b00b1c3706ef190333036fda52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd2273a633b7abd6b159353578ff8b64 = $(`<div id="html_dd2273a633b7abd6b159353578ff8b64" style="width: 100.0%; height: 100.0%;">静园食堂</div>`)[0];
+                popup_19bd59b00b1c3706ef190333036fda52.setContent(html_dd2273a633b7abd6b159353578ff8b64);
+            
+        
+
+        marker_5b1988d0462e56159140a8cdfb9b8c3f.bindPopup(popup_19bd59b00b1c3706ef190333036fda52)
+        ;
+
+        
+    
+    
+            var marker_df4aa6e7cc86e0ecf145f5f78a18a627 = L.marker(
+                [30.210486, 115.022802],
+                {}
+            ).addTo(map_d3573062000077093a7968d61e4a4af9);
+        
+    
+        var popup_946eabcd06b32f1cb4ab14c0f81e5fd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_585d79790476e4a9fdf22c6de7e545a3 = $(`<div id="html_585d79790476e4a9fdf22c6de7e545a3" style="width: 100.0%; height: 100.0%;">东门体育馆</div>`)[0];
+                popup_946eabcd06b32f1cb4ab14c0f81e5fd6.setContent(html_585d79790476e4a9fdf22c6de7e545a3);
+            
+        
+
+        marker_df4aa6e7cc86e0ecf145f5f78a18a627.bindPopup(popup_946eabcd06b32f1cb4ab14c0f81e5fd6)
+        ;
+
+        
+    
+    
+            var marker_fae464151530fd8cd113a4a1782d0d63 = L.marker(
+                [30.209486, 115.026802],
+                {}
+            ).addTo(map_d3573062000077093a7968d61e4a4af9);
+        
+    
+        var popup_c63b87097929132ed789b3ff67c16e56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19b196ae1d4d40f0209aa1e4c504e31d = $(`<div id="html_19b196ae1d4d40f0209aa1e4c504e31d" style="width: 100.0%; height: 100.0%;">智慧大楼</div>`)[0];
+                popup_c63b87097929132ed789b3ff67c16e56.setContent(html_19b196ae1d4d40f0209aa1e4c504e31d);
+            
+        
+
+        marker_fae464151530fd8cd113a4a1782d0d63.bindPopup(popup_c63b87097929132ed789b3ff67c16e56)
+        ;
+
+        
+    
+    
+            var poly_line_a602253550f52ff43453fb41b1c6e0f1 = L.polyline(
+                [[30.208527, 115.012572], [30.211396, 115.01526]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_d3573062000077093a7968d61e4a4af9);
+        
+</script>
+</html>

@@ -1,0 +1,59 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  width: 800px;
+  height: 600px;
+}
+
+.navigation form {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.forminput {
+  padding: 5px 8px;
+}
+
+.result-container {
+  background-color: #f0f8ff; /* 浅蓝色背景 */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result-title {
+  color: #000080; /* 深蓝色文字 */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.result-length {
+  color: #000; /* 黑色文字 */
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.result-button {
+  background-color: #000080; /* 深蓝色背景 */
+  color: #fff; /* 白色文字 */
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-button h2 {
+  margin: 0;
+  font-size: 18px;
+}

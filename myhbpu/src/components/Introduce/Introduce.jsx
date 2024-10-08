@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { closeModal } from "../../store/modules/displayStore";
-import "./css/Introduce.css";
+import "./css/introduce.css";
 
 const Introduce = () => {
   const buildings = useSelector((state) => state.builder.buildings); // 获取对应建筑的数据

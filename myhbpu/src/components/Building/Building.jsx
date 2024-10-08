@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import { addBuilding } from "../../store/modules/buildingStore"; // 导入 action
 import { openModal, setDisplay } from "../../store/modules/displayStore"; // 导入 action
-import "./css/Building.css";
+import "./css/building.css";
 
 function BuildingButtons({ name, style }) {
   const dispatch = useDispatch();

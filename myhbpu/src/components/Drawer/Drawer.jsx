@@ -17,6 +17,7 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 export default function TemporaryDrawer() {
   const [open, setOpen] = React.useState(false);
   const links = ["/", "/map"];
+  const links2 = ["/notice"];
 
   const toggleDrawer = (newOpen) => () => {
     setOpen(newOpen);
@@ -44,7 +45,7 @@ export default function TemporaryDrawer() {
       <List>
         {["注意"].map((text, index) => (
           <ListItem key={text} disablePadding>
-            <ListItemButton>
+            <ListItemButton component={Link} to={links2[index]}>
               <ListItemIcon>
                 <ErrorOutlinedIcon />
               </ListItemIcon>

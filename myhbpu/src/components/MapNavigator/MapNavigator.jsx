@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import ComboBox from "../../ui/Autocomplete";
 import Button from "@mui/material/Button";
-import "./css/MapNavigator.css";
+import "./css/mapnavigator.css";
+import Card from "../Card/Card";
 import axios from "axios";
 
 const MapNavigator = () => {
@@ -38,7 +39,7 @@ const MapNavigator = () => {
           计算最短路径
         </Button>
       </form>
-      {result && (
+      {/* {result && (
         <div className="result-container">
           <h2 className="result-title">
             最短路径: {result.shortest_path.join(" -> ")}
@@ -55,7 +56,8 @@ const MapNavigator = () => {
             <h2>查看路径地图</h2>
           </Button>
         </div>
-      )}
+      )} */}
+      {result && <Card result={result} />}
     </div>
   );
 };

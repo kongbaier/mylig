@@ -1,5 +1,5 @@
 import BuildingButtons from "../Building/Building";
-import "./css/MapButton.css";
+import "./css/mapbutton.css";
 
 const MapButton = () => {
   return (
@@ -194,7 +194,7 @@ const MapButton = () => {
         }}
       />
       <BuildingButtons
-        name={"逸夫墙"}
+        name={"逸夫楼"}
         style={{
           width: "150px",
           height: "40px",
